@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Axis Bank</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+
+<!-- navbar start -->
+
+    <div class="row" id="navbar-main-div">
+      <img
+        src="https://www.axiscapital.co.in/wp-content/uploads/Vector-3.png"
+        alt="Axis Bank"
+        class=""
+        id="navbar-main-img"
+      />
+      <img
+        src="assets/img/AXISBANK.BO_BIG.D.png"
+        alt="Axis Bank"
+        class=""
+        id="logo"
+      />
+    </div>
+
+      <div class="" id="nav-item-main-div">
+        <ul class="" id="nav-item-ul">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-black">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-black" id="nav-item-companies">Companies</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-black">Sectors</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-black">Analyst</a>
+          </li>
+          
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-black">Eco/stats</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-black">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-black ">Valuation Summary</a>
+            </li>
+        </ul>
+          </div>
+
+
+          <div class="users">
+            <img
+              src="assets/img/ankur.png"
+              alt="User"
+              class="nav-icon" id=""
+              width="30px"
+              height="30px"
+              style="border-radius: 80px; "
+              
+            />
+            
+
+            <li class="nav-icon">
+              <a href="index.html" class="nav-link text-black ">Welcome User</a>
+            </li>
+          <!-- </li>
+            <a href="index.html" class="nav-icon">Welcome User</a>
+          </li> -->
+          <img
+              src="assets/img/logoutIcon.png"
+              alt="User"
+              class="nav-icon" id=""
+              width="20px"
+              height="20px"
+              
+            />
+        </ul>
+      </div>
+    
+   
+
+     <!-- Reduce start -->
+<div class="" id="reduce">
+  
+  <div class="col">
+<img src="assets/img/reduce.png" alt="Axis Bank" class="" id="reduce-img" width="14%" height="99%"/>
+ <!-- <p class="para bg-primary"><h2>Reduce</h2></p> -->
+  </div>
+
+  <div class="" id="Cholamandalam">
+    <p class="reduce-heading">Cholamandalam Financial Holdings</p>
+    <p class="reduce-para" style="color: gray;"> CHOLAHLID IB | CMP: Rs 665 | Target Price: Rs 464 | Potential Charges: 45%</p>
+    </div>  
+
+</div>
+
+<!-- reduce ended -->
+
+<!-- table starts -->
+
+ <div class="" id="table-div">
+  <div class="" id="market-table">
+    <table class="table table-bordered mt-3">
+      
+      <h4 class="table-heading" style="color: rgb(157,20,72);">Market Data <small style="color: rgb(49, 49, 49); font-size: 15px;">(4th January 2024)</small></h4>
+      <thead>
+      <tbody>   
+          <tr>
+              <th>Market Cap:</th>
+              <td>USD 1.679 mn</td>
+          </tr>
+          <tr>
+              <th>52-week High / Low:</th>
+              <td>Rs 713 / Rs 327</td>
+          </tr>
+          <tr>
+              <th>Avg. Daily Vol. (6M):</th>
+              <td>21.44 mn</td>
+          </tr>
+          <tr>
+              <th>Avg. Daily Value (6M):</th>
+              <td>1.65 mn</td>
+          </tr>
+          <tr>
+              <th>Promoters Holding:</th>
+              <td>34%</td>
+          </tr>
+          <tr>
+              <th>FII / DII:</th>
+              <td>28% / 19%</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="" id="key-financials">
+    <h4 style="color: #861f41;" >Key Financials</h4>
+    <div class="table-wrapper">
+      <table>
+        <tr>
+          <td style="width: 20%">
+            <button id="key-statistics-btn" class="btn-custom">Key Statistics</button>
+          </td>
+          <td style="width: 27.5%">
+            <button id="income-statement-btn" class="btn-custom">Income Statement</button>
+          </td>
+          <td style="width: 22%">
+            <button id="balance-sheet-btn" class="btn-custom">Balance Sheet</button>
+          </td>
+          <td style="width: 28%">
+            <button id="sector-valuation-btn" class="btn-custom">Sector Valuation summary</button>
+          </td>
+          <td style="width: 15%">
+            <button id="download-btn" class="btn-download">
+              <i class="fas fa-download"></i>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  
+    <div id="key-statistics" class="table-section active">
+      <table class="table table-striped" id="dataTable">
+        <thead>
+          <tr>
+            <th>Y/E March</th>
+            <th>2021</th>
+            <th>2022</th>
+            <th>2023E</th>
+            <th>2024E</th>
+            <th>2025E</th>
+            <th>2026E</th>
+            <th>2027E</th>
+            <th>2028E</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr>
+            <td>NII+other income (Rs bn)</td>
+            <td>50</td>
+            <td>58</td>
+            <td>68</td>
+            <td>81</td>
+            <td>99</td>
+            <td>68</td>
+            <td>81</td>
+            <td>99</td>
+          </tr>
+          <tr>
+            <td>PPOP (Rs bn)</td>
+            <td>34</td>
+            <td>38</td>
+            <td>42</td>
+            <td>50</td>
+            <td>63</td>
+            <td>68</td>
+            <td>81</td>
+            <td>99</td>
+          </tr>
+          <tr>
+            <td>PAT (Rs bn)</td>
+            <td>50</td>
+            <td>58</td>
+            <td>68</td>
+            <td>81</td>
+            <td>99</td>
+            <td>68</td>
+            <td>81</td>
+            <td>99</td>
+          </tr>
+          <tr>
+            <td>EPS (Rs/share)</td>
+            <td>34</td>
+            <td>38</td>
+            <td>42</td>
+            <td>50</td>
+            <td>63</td>
+            <td>68</td>
+            <td>81</td>
+            <td>99</td>
+          </tr>
+          <tr>
+            <td>P/E (X)</td>
+            <td>50</td>
+            <td>58</td>
+            <td>68</td>
+            <td>81</td>
+            <td>99</td>
+            <td>68</td>
+            <td>81</td>
+            <td>99</td>
+          </tr>
+          <tr class="extra-row">
+            <td>P/B (X)</td>
+            <td>1.2</td>
+            <td>1.5</td>
+            <td>1.8</td>
+            <td>2.0</td>
+            <td>2.5</td>
+            <td>3.0</td>
+            <td>3.5</td>
+            <td>4.0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <div id="income-statement" class="table-section">
+    </div>
+  
+    <div id="balance-sheet" class="table-section">
+    </div>
+  
+    <div id="sector-valuation" class="table-section">
+    </div>
+  
+    <div class="show-more" id="showMore">
+      <i class="fas fa-caret-down"></i> Show more
+    </div>   
+</div>
+
+
+
+
+<div class="" id="graph" >
+  <label for="graph" class="" id="graph-label"><h4>Price Performance Weekly</h4></label>
+  <div class="graph-img-div">
+  <img src="assets/img/graph.png" alt="Axis Bank" class="" id="graph-img" width="90%" height="70%" />
+  </div>
+</div>
+</div>  
+
+
+
+
+<div class="position-absolute col" id="recent-research-div">
+  <div class="row mt-4">
+    <div class="col-md-8">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3>Recent Research</h3>
+        <div class="ml-3">
+          <i
+            class="fa-solid fa-sort"
+            style="font-size: 20px; cursor: pointer; color: #ac1f43"
+          ></i>
+          Sort By
+        </div>
+        <div
+          class="input-group"
+          style="max-width: 250px; position: relative"
+        >
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search"
+            style="padding-right: 35px"
+          />
+          <i class="ti ti-list-search btn-search"></i>
+         
+        </div>
+      </div>
+
+      <div class="row recent-research">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card mb-3">
+            <div class="card-header text-white">
+              BUY: Cholamandalam Investment
+            </div>
+            <div class="card-body">
+              <h5>HDFC has announced a mega merger...</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Neque nam quibusdam eveniet asperiores sed id quis amet
+                quae, repellat saepe atque libero doloribus molestiae quas
+                corporis ad corrupti modi! Corporis tenetur earum possimus
+                blanditiis quia ipsa beatae nobis illo veritatis quis a
+                quisquam cum perspiciatis omnis temporibus consequuntur
+                
+              </p>
+              <div class="row cb">
+                <a
+                  href="#"
+                  class="btn col-md-6 border Research-bgfont read-btn"
+                  style="width: 50%"
+                  >Read</a
+                >
+                <a
+                  href="#"
+                  class="btn download-btn col-md-6 border Research-bgfont"
+                  style="width: 50%"
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card mb-3">
+            <div class="card-header text-white">
+              Information Technology
+            </div>
+            <div class="card-body">
+              <h5>Accenture Q3 result read-through...</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Illum porro dolorem facere esse. Voluptatum, aliquid
+                nihil? Deleniti, eos? Vero, eum?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatibus assumenda modi blanditiis optio quisquam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, distinctio!
+                amet consectetur 
+              </p>
+              <div class="row cb">
+                <a
+                  href="#"
+                  class="btn col-md-6 border Research-bgfont read-btn"
+                  style="width: 50%"
+                  >Read</a
+                >
+                <a
+                  href="#"
+                  class="btn download-btn col-md-6 border Research-bgfont"
+                  style="width: 50%"
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card mb-3">
+            <div class="card-header text-white">
+              BUY: Cholamandalam Investment
+            </div>
+            <div class="card-body">
+              <h5>HDFC has announced a mega merger...</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Illum porro dolorem facere esse. Voluptatum, aliquid
+                nihil? Deleniti, eos? Vero, eum?
+              </p>
+              <div class="row cb">
+                <a
+                  href="#"
+                  class="btn col-md-6 border Research-bgfont read-btn"
+                  style="width: 50%"
+                  >Read</a
+                >
+                <a
+                  href="#"
+                  class="btn download-btn col-md-6 border Research-bgfont"
+                  style="width: 50%"
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card mb-3">
+            <div class="card-header text-white">
+              Information Technology
+            </div>
+            <div class="card-body">
+              <h5>Accenture Q3 result read-through...</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Illum porro dolorem facere esse. Voluptatum, aliquid
+                nihil? Deleniti, eos? Vero, eum?
+              </p>
+              <div class="row cb">
+                <a
+                  href="#"
+                  class="btn col-md-6 border Research-bgfont read-btn"
+                  style="width: 50%"
+                  >Read</a
+                >
+                <a
+                  href="#"
+                  class="btn download-btn col-md-6 border Research-bgfont"
+                  style="width: 50%"
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card mb-3">
+            <div class="card-header text-white">
+              BUY: Cholamandalam Investment
+            </div>
+            <div class="card-body">
+              <h5>HDFC has announced a mega merger...</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Illum porro dolorem facere esse. Voluptatum, aliquid
+                nihil? Deleniti, eos? Vero, eum?
+              </p>
+              <div class="row cb">
+                <a
+                  href="#"
+                  class="btn col-md-6 border Research-bgfont read-btn"
+                  style="width: 50%"
+                  >Read</a
+                >
+                <a
+                  href="#"
+                  class="btn download-btn col-md-6 border Research-bgfont"
+                  style="width: 50%"
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div class="card mb-3">
+            <div class="card-header text-white">
+              Information Technology
+            </div>
+            <div class="card-body">
+              <h5>Accenture Q3 result read-through...</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Illum porro dolorem facere esse. Voluptatum, aliquid
+                nihil? Deleniti, eos? Vero, eum?
+              </p>
+              <div class="row cb">
+                <a
+                  href="#"
+                  class="btn col-md-6 border Research-bgfont read-btn"
+                  style="width: 50%"
+                  >Read</a
+                >
+                <a
+                  href="#"
+                  class="btn download-btn col-md-6 border Research-bgfont"
+                  style="width: 50%"
+                  >Download</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-4"  id="Analyst-Card">
+      <h3>Analysts</h3>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-4" style="width: 100%">
+            <div class="m-3">
+              <img
+                src="assets/img/ankur.png"
+                class="card-img-top analyst-img"
+                id="analyst-img"
+                alt="Analyst 1"
+                width="10%"
+                height="10%"
+              />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Ankur Periwal, CFA</h5>
+              <p class="card-text">
+                ED - Spec Chem & Midcaps
+                <a
+                  href="mailto:ankur.periwal@example.com"
+                  class="email-icon"
+                >
+                  <br /><i
+                    class="fas fa-envelope"
+                    style="font-size: 2rem"
+                  ></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card mb-4" style="width: 100%">
+            <div class="m-3">
+              <img
+                src="assets/img/ankur.png"
+                class="card-img-top analyst-img"
+                alt="Analyst 2"
+                id="analyst-img"
+              />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Nishit Jalan</h5>
+              <p class="card-text">
+                ED - Materials
+                <a
+                  href="mailto:nishit.jalan@example.com"
+                  class="email-icon"
+                >
+                  <br /><i
+                    class="fas fa-envelope"
+                    style="font-size: 2rem"
+                  ></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="" id="footer-div">
+
+  <footer>
+    <div class="">
+      <img src="assets/img/footerSheh.PNG" alt="" width="100%"
+      class=""></div>
+      <div class="">
+        <img src="assets/img/footerimg.jpg" alt="" width="100%" height="30%"
+        class="" id="public-img">
+      </div>
+      <p id="upcoming">UPCOMING </p>
+      <p id="events">EVENTS</p>
+
+
+      <div id="blank"></div>
+      <div id="footer-logo">
+
+        <img src="assets/img/axis_footer_logo.png" alt="Axis Bank" class="" id="footer-logo-img" width="20%" height="20%"/>
+      </div>
+    
+
+      <input type="button" value="Click Here" id="click"/>
+    <div class="container-fluid justify-content-end">
+      <div class="row">
+        <div class="footer-section col-md-3 mt-4 footer-about" id="about"> 
+          <h6>About</h6>
+          <a href="#">Axis Capital</a>
+          <a href="#">Axis Bank</a>
+        </div>
+
+        <div class="footer-section col-md-3 mt-4 footer-important" id="Important">
+          <h6>Important</h6>
+          <a href="#">Disclosures & Disclaimers</a>
+          <a href="#">Ratings & Identifiers</a>
+        </div>
+
+        <div
+          class="footer-section col-md-6 ms-auto text-end footer-right mt-3"
+        >
+          <p class="footer-description">
+            Axis Capital Ltd is a leading provider of equity capital market
+            services in the areas of investment banking and institutional
+            equities.
+          </p>
+          <div class="copyright">
+            <p style="color: #861f41">&copy; Axis Capital Ltd</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+ </div>
+
+   
+  <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous">
+  </script>
+  </body>
+</html>
